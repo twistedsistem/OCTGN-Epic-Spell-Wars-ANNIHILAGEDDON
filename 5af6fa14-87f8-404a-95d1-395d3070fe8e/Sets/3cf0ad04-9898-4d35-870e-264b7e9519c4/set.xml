@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Core Set" id="3cf0ad04-9898-4d35-870e-264b7e9519c4" gameId="5af6fa14-87f8-404a-95d1-395d3070fe8e" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="Glyph" id="">
+      <property name="type" value="starter"/>
+      <property name="power" value="1"/>
+      <property name="text">+1 Power</property>
+    </card>
+    <card name="Wand" id="">
+      <property name="type" value="starter"/>
+      <property name="power" value="1"/>
+      <property name="attack" value="true"/>
+      <property name="text">+1 Power. Attack: Deal 1 damage to target player. If they die from this damage, draw 2 cards.</property>
+    </card>
+    <card name="Limp Wand" id="">
+      <property name="vp" value="-1"/>
+      <property name="text">(No effect.)</property>
+    </card>
+    <card name="Fizzle" id="">
+      <property name="type" value="starter"/>
+      <property name="text">(No effect.)</property>
+    </card>
+    <card name="Wild Magic" id="">
+      <property name="cost" value="3"/>
+      <property name="vp" value="1"/>
+      <property name="text">Choose 1: +2 Power OR you may play the top card of any foe's deck and then put it into their discard pile. If it's Ongoing, keep it instead.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player may discard their hand and draw 2 cards. Each who does not gains a Limp Wand.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Deal 6 damage to the strongest player(s).</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player reveals the top card of their deck. The player(s) revealing the highest cost card passes their card to the deiscard pile of the player(s) revealing the lowest cost card.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player may pay 4HP to destroy a card in their hand. Use this any number of times.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player totals the cost of cards in their hand. The player(s) with the highest total cost gains 2. Limp Wands.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player reveals the top 2 cards of their deck. Destroy 1 and draw the other. Take damage equal to the cost of the card you draw.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">The player(s) with the highest and lowest HP swap HP.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player shuffles their hand, deck, and discard pile together, and then draws 5 cards.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player destroys a random card in their hand, then gains a Wild Magic and puts it into their hand.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player may gain the top card of the main deck. Each who does destroys the top card of their deck.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player may destroy the highest cost card in their hand to heal 13 HP.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Play 2 random Mayhem cards from the destroyed pile.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player may destroy a card in their hand or discard pile. If that card has 1 or more VP, gain a number of cards from the top of the main deck equal to the VP value of that card. (*=3 VP)</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player puts all Glyphs from their discard pile on top of their deck.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player reveals their hand and resolves each Attack in their hand against themselves.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Deal 5 damage to each player with 10 or more HP.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Resolve each Attack in the Line-Up. Active player targets effects that require it.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player puts a Dead Wizard Token they control into a pile. Shuffle them, then give 1 at random back to each contributer. Resolve the text on the token you gain.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: The foe on your right may destroy a card in their hand and may destroy a card in their discard pile.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: The foe on your left draws 2 cards.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player gains the top card of the main deck and takes damage equal to its cost.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Deal 3 damage to each player with 10 or fewer HP.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Resolve the current Legend's Group Attack.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Each player totals the cost of cards in their hand. The player(s) with the lowest total draws 2 cards.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player gains a Limp Wand and puts it on top of their deck.</property>
+    </card>
+    <card name="Mayhem!" id="">
+      <property name="type" value="mayhem"/>
+      <property name="text">Attack: Each player discards an Ongoing card they control.</property>
+    </card>
+    <card name="Annihilageddon Arena" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="3"/>
+      <property name="cost" value="7"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: Attacks you play deal double damage. Each time you kill a foe, put this into your discard pile.</property>
+    </card>
+    <card name="Go-Mart" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: Your healing effects are doubled.</property>
+    </card>
+    <card name="The Pleasure Palace" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: The first time you play a Spell during each of your turns, draw a card.</property>
+    </card>
+    <card name="Murdershroom Marsh" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: The first time you play a Treasure during each of your turns, draw a card.</property>
+    </card>
+    <card name="Castle Tentakill" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: The first time you play a Creature during each of your turns, draw a card.</property>
+    </card>
+    <card name="Mt. Skullzfyre" id="">
+      <property name="type" value="location"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="location" value="true"/>
+      <property name="text">Ongoing: The first time you play a Wizard during each of your turns, draw a card.</property>
+    </card>
+    <card name="Doctor Extinction" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="6"/>
+      <property name="cost" value="12"/>
+      <property name="text">Double your Power this turn.  Group Attack: Each player discards all cards with cost 5 or greater.</property>
+    </card>
+    <card name="Magus Jenny Jellybean" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="6"/>
+      <property name="cost" value="12"/>
+      <property name="power" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">+4 Power.  Attack: Deal 4 damage to target foe.  Group Attack: Each player gains a Limp Wand for each card in their hand with cost 4 or greater.</property>
+    </card>
+    <card name="Skullzor!! (Guitars Wailing)" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="6"/>
+      <property name="cost" value="11"/>
+      <property name="text">Put each Spell from your discard pile into your hand. If none, +2 Power.  Group Attack: Each player reveals their hand and takes 3 damage for each card with 1 or more VP. (*=3 VP)</property>
+    </card>
+    <card name="Much Darker Lord Dark Lord" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="6"/>
+      <property name="cost" value="11"/>
+      <property name="text">Put each Treasure from your discard pile into your hand. If none, +2 Power.  Group Attack: Each player takes 7 damage.</property>
+    </card>
+    <card name="Champion Chafia and Burning Kitty" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="10"/>
+      <property name="text">+2 Power and draw a card.  Destroy a Limp Wand in your hand and/or discard pile.  Group Attack: Each player gains a Limp Wand for each Creature in the Line-Up.</property>
+    </card>
+    <card name="The Cosmic Glyph" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="cost" value="10"/>
+      <property name="text">Resolve a random Mayhem from the destroyed pile. You may decline to participate.  Group Attack: Each player discards 2 cards and 1 Ongoing card they control.</property>
+    </card>
+    <card name="Papa Boner" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="10"/>
+      <property name="text">+3 Power.  Gain an additional random Wizard Ability tile until the next Legend is defeated.  Group Attack: Each player loses HP until they match the HP of the weakest player.</property>
+    </card>
+    <card name="Ciggy the Slow Death" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="10"/>
+      <property name="text">+2 Power.  Target foe gains a Limp Wand. (This is not an Attack.)  Group Attack: Each player destroys cards in their hand until they have only 1 card of each type in their hand.</property>
+    </card>
+    <card name="Blood Lord Krazztar" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="cost" value="9"/>
+      <property name="text">Draw 3 cards and take 3 damage. Group Attack: Each player puts a card from their hand into the discard pile of the foe on their left. Deal damage to that foe equal to double the cost of the card you gave them.</property>
+    </card>
+    <card name="Lickity-Styx, Demon Wizard" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="cost" value="9"/>
+      <property name="text">Reveal the top card of the main deck and put it on top of your deck. If it's a Mayhem, +3 Power instead.  Group Attack: Each player reveals the top 5 cards of their deck and discards each card with cost 1 or greater.</property>
+    </card>
+    <card name="Ben-Nanamancer" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="5"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="9"/>
+      <property name="text">+2 Power.  Heal 1 HP for each Starter you control, in your hand, and in your discard pile.  Group Attack: Each player takes 5 damage and gains a Limp Wand.</property>
+    </card>
+    <card name="One-Eyed, One-Armed, One-Balled Willy" id="">
+      <property name="type" value="legend"/>
+      <property name="vp" value="4"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="8"/>
+      <property name="attack" value="true"/>
+      <property name="text">+1 Power. Draw 1 card. Unavoidable Attack: Deal 1 damage to each foe.</property>
+    </card>
+    <card name="The Dungeon Master" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Venture The Party Dragon"
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Draw 2 random Mayhems from the destroyed pile. Resolve 1 of them. You may decline to participate.  Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Sir Phlegm The Blessed" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Snotia the Viscous Viscountess"
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Heal 6 HP. Defense: You may discard this to avoid an Attack. If you do, draw a card, heal 3 HP, and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Spoogy the Wizard Penis" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Hellish Huffman and His Band of Rage"
+      <property name="defense" value="true"/>
+      <property name="text">+3 Power. If you have 3 or more Spells in your discard pile, additional +3 Power. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Hugchuck, Haggis Hero" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Mcravey the Highland Magus"
+      <property name="defense" value="true"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 2 damage to each foe for each Wizard you control and in your discard pile. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Hairy the Eldritch Pube" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Ball of Cthulhu"
+      <property name="defense" value="true"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 7 damage to target foe. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Sparky, Squire fo Fire" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Joan of Spark"
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Peek at the top 2 cards of your deck. You may destroy 1 of them. Defense: You may discard this to avoid and Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Kids!" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="The Game-Over Lord"
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. At end of turn, put this card on the bottom of its owner's deck. Defense: You may put this on the bottom of your deck to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Goldy!" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Mr. Lucky and the Charms"
+      <property name="defense" value="true"/>
+      <property name="text">+3 Power. If you have 3 or more Treasures in your discard pile, additional +3 Power. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Saint Stinkus" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Dungstar the Poo Pope"
+      <property name="defense" value="true"/>
+      <property name="text">+3 Power. You may destroy and replace a card in the Line-Up. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker. You may destroy a card in your hand.</property>
+    </card>
+    <card name="Lord Squeakers, ESQ." id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Sir Kitty Purrington"
+      <property name="defense" value="true"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 2 damage to each foe for each Creature you control and in your discard pile. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Poof the Gay Cloud" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Fey Ticklebottom"
+      <property name="defense" value="true"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Each foe gains a Limp Wand. Defense: You may discard this to avoid an Attack. If you do, draw a card and the attacker gains a Limp Wand.</property>
+    </card>
+    <card name="Horny Hank, Party Demon" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Roachsauce"
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power for each Dead Wizard Token you control. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker, and they take an additional 4 damage.</property>
+    </card>
+    <card name="The Juice" id="">
+      <property name="type" value="familiar"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="oversize_wizard" value="Studo Spellslammer and the Juice"
+      <property name="defense" value="true"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 10 damage to each foe, but each foe takes 2 less damage for each Dead Wizard Token they control. Defense: You may discard this to avoid an Attack. If you do, draw a card and redirect the effect to the attacker.</property>
+    </card>
+    <card name="Uncle Andy's Laurels" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="5"/>
+      <property name="cost" value="7"/>
+      <property name="text">+5 Power.</property>
+    </card>
+    <card name="Joy-Boy's Bag of Goodies" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="text">+3 Power. Reveal the top card of your deck. Heal HP equal to the cost of that card.</property>
+    </card>
+    <card name="The Un-Holy Grail" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="defense" value="true"/>
+      <property name="text">+3 Power. Defense: You may discard this to avoid an Attack. If you do, draw a card and deal 5 damage to the attacker.</property>
+    </card>
+    <card name="Dragon's Ballz" id="">
+      <property name="type" value="treasure"/>
+      <property name="cost" value="5"/>
+      <property name="ongoing" value="true"/>
+      <property name="defense" value="true"/>
+      <property name="text">Heal 3 HP. Ongoing-Defense: You may discard this from play to avoid an Attack. If you do, draw a card. If you own both Dragon's Ballz cards, this card is worth 5 VP.</property>
+    </card>
+    <card name="Battle Sax" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 5 damage to the foes on your left and right.</property>
+    </card>
+    <card name="Overkill Grill" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 4 damage to each foe for each Legend in their discard pile. If this deals no damage, you may destroy a card in your hand.</property>
+    </card>
+    <card name="Johnny's Rotten Staph" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">+1 Power. Attack: Deal 3 damage to target foe and they gain a Limp Wand.</property>
+    </card>
+    <card name="Sexcalibur" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="text">Put a Wizard from your discard pile into your hand. If there aren't any, +2 Power.</property>
+    </card>
+    <card name="Wand of Porkus" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">Draw a Card. Attack: Put a card with cost 0 from your hand or discard pile into target foe's hand.</property>
+    </card>
+    <card name="Deep Shit" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="3"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Each foe reveals the top card of their deck. You may discard any number of them.</property>
+    </card>
+    <card name="Huge Boner" id="">
+      <property name="type" value="treasure"/>
+      <property name="cost" value="3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">Ongoing: You are considered to control an additional Dead Wizard Token. This card is worth 1 VP for each actual Dead Wizard Token you control.</property>
+    </card>
+    <card name="Golden Girls" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">Ongoing: At the start of each of your turns, heal 1 HP for each Ongoing you control.</property>
+    </card>
+    <card name="Robotic Tongue" id="">
+      <property name="type" value="treasure"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="2"/>
+      <property name="defense" value="true"/>
+      <property name="text">+1 Power. Defense: You may discard this to avoid an Attack. If you do, you may destroy a card in your hand or discard pile.</property>
+    </card>
+    <card name="Furry Fury" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="text">Put a Creature from your discard pile into your hand. If there aren't any, +2 Power.</property>
+    </card>
+    <card name="Lucky Day" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="defense" value="true"/>
+      <property name="text">Draw a card. Defense: You may discard this to avoid an Attack. If you do, draw a card and heal 3 HP.</property>
+    </card>
+    <card name="Sin-Fection" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="3"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 5 damage to target foe.</property>
+    </card>
+    <card name="Dragon Whored" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="text">+1 Power. You may destroy a card in your discard pile.</property>
+    </card>
+    <card name="Inappropriatus Grab-O" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="2"/>
+      <property name="text">+1 Power. Put the next card you buy or gain on top of your deck.</property>
+    </card>
+    <card name="Mega-Fisting!" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">Attack: Deal 6 damage to the foe on your left or right.</property>
+    </card>
+    <card name="Vomit Comet" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">Draw a card. Each time you buy or gain a card this turn, Attack: Deal damage to target foe equal to the cost of that card.</property>
+    </card>
+    <card name="Stover-Heated" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="5"/>
+      <property name="text">+4 Power.</property>
+    </card>
+    <card name="Goregasm" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="text">If you control 3 or more Dead Wizard Tokens, draw 3 cards. Otherwise, +2 Power.</property>
+    </card>
+    <card name="Mist Me Fucker" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="4"/>
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Defense: You may discard this to avoid an Attack. If you do, draw a card and deal 2 damage to the attacker.</property>
+    </card>
+    <card name="Wizard Babies" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="attack" value="true"/>
+      <property name="text">+3 Power. Attack: Deal 2 damage to each foe for each Defense in their discard pile.</property>
+    </card>
+    <card name="Annihilaggedon!" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="7"/>
+      <property name="attack" value="true"/>
+      <property name="text">+3 Power. Attack: Deal 7 damage to each foe.</property>
+    </card>
+    <card name="Necromancing" id="">
+      <property name="type" value="spell"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="3"/>
+      <property name="cost" value="6"/>
+      <property name="text">+3 Power. If you control a Huge Boner, you may Attack: Choose a Dead Wizard Token target foe controls, swap tokens with that foe, then resolve the text on those tokens.</property>
+    </card>
+    <card name="Expando the Brain" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Target foe discards a card with cost 5 or greater. If they avoid this, they take 5 damage.</property>
+    </card>
+    <card name="Vee-Arr the Virtual Wiz" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Defense: You may discard this to avoid an Attack. If you do, draw 2 cards, and then discard 1 of them.</property>
+    </card>
+    <card name="Pythox LZR-WULF" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 5 damage to each weaker foe.</property>
+    </card>
+    <card name="Sblendo the Dreamcrusher" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="text">Look at the top card of your deck. Draw it or destroy it.</property>
+    </card>
+    <card name="Destiny's Child" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="text">+1 Power. If this is the first card you play this turn, discard your hand and draw 4 cards.</property>
+    </card>
+    <card name="Abraca-Labrador" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="2"/>
+      <property name="text">Draw a card. Heal 2 HP</property>
+    </card>
+    <card name="Bossu Fishmonger" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="text">Put a Spell from your discard pile into your hand. If there aren't any, +2 Power.</property>
+    </card>
+    <card name="Pustrualord Rippskull" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Each foe discards a card.</property>
+    </card>
+    <card name="Damsel Distressia" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="3"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Target foe reveals the top card of their deck and takes damage equal to its cost.</property>
+    </card>
+    <card name="Car-Lotta Familiars" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="defense" value="true"/>
+      <property name="text">+1 Power. You and target foe each draw a card. Defense: You may discard this to avoid an Attack.</property>
+    </card>
+    <card name="Solzar the Wizard Star" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="7"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power and draw a card. Attack: Deal 10 damage to target foe.</property>
+    </card>
+    <card name="Fingler" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="3"/>
+      <property name="power" value="5"/>
+      <property name="cost" value="6"/>
+      <property name="text">+5 Power. -1 Power for each Dead Wizard Token you control.</property>
+    </card>
+    <card name="Sugarpuss" id="">
+      <property name="type" value="wizard"/>
+      <property name="vp" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="text">Draw 2 cards, and then discard 1 card. Heal HP equal to the cost of the discarded card. If you are now at 25 HP, shuffle a Dead Wizard Token you control into the stack.</property>
+    </card>
+    <card name="Not-Live Girls" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="text">+1 Power. Additional +1 Power for each Dead Wizard Token you control.</property>
+    </card>
+    <card name="Boogie Knight" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="2"/>
+      <property name="text">+2 Power.</property>
+    </card>
+    <card name="Stabby Steve" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="4"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Target foe reveals their hand and takes damage equal to the highest cost card revealed this way.</property>
+    </card>
+    <card name="Sk8 Ratz" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="4"/>
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Defense: You may discard this to avoid an Attack. If you do, you may pass a card from your hand or discard pile to the attacker's discard pile.</property>
+    </card>
+    <card name="Lucky's Charms" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="4"/>
+      <property name="text">Put a Treasure from your discard pile into your hand. If there aren't any, +2 Power.</property>
+    </card>
+    <card name="Acid Dragon" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="1"/>
+      <property name="cost" value="3"/>
+      <property name="text">+1 Power. Look at the top card of your deck. Destroy it or leave it.</property>
+    </card>
+    <card name="Fatality Fighter" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="3"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 4 damage to your weakest foe. If they die from this damage, reveal 2 Dead Wizard Tokens. You choose which 1 they gain.</property>
+    </card>
+    <card name="Genital Harpies" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 2 damage to each foe for each Limp Wand you control and in your discard pile. If this deals no damage, draw a card.</property>
+    </card>
+    <card name="The What?!" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="5"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Deal 3 damage to each foe for each Ongoing you control.</property>
+    </card>
+    <card name="The Twins" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="1"/>
+      <property name="cost" value="5"/>
+      <property name="text">Draw 2 cards.</property>
+    </card>
+    <card name="Fruity Rooty" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="attack" value="true"/>
+      <property name="text">+2 Power. Attack: Each foe gains a Limp Wand. For each foe who avoids this, heal 4 HP.</property>
+    </card>
+    <card name="Cthulhu" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="3"/>
+      <property name="cost" value="7"/>
+      <property name="attack" value="true"/>
+      <property name="text">While you own Cthulhu, you control the R'lyeh Standee. Unavoidable Attack: Each foe discards a random card and takes damage equal to the cost of that card.</property>
+    </card>
+    <card name="BFG" id="">
+      <property name="type" value="creature"/>
+      <property name="vp" value="2"/>
+      <property name="power" value="2"/>
+      <property name="cost" value="6"/>
+      <property name="defense" value="true"/>
+      <property name="text">+2 Power. Defense: You may discard this to avoid an Attack. If you do, draw a card and you may destroy a card in your hand.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">Each time you play a Spell during your turn, look at the top card of your deck. You may discard it.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">The second time you play a Treasure during your turn, you may put a card from your discard pile on top of your deck.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">Cards with cost 4 or less you buy or gain from the Line-Up go to the top of your deck.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">Each time you play a Creature during your turn, heal HP equal to its VP value.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">If you play 2 or more different Wizards during your turn, +2 Power. If you play 2 or more different Creatures during your turn, +2 Power.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">Once during each of your turns, you may pay 4 HP to draw a card.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">At end of turn, draw an extra card for each Wizard you bought or gained during your turn.</property>
+    </card>
+    <card name="Ability" id="">
+      <property name="text">If you play 4 or more different card types during your turn, +1 Power and draw a card.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Destroy a random card in your discard pile.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Gain a Limp Wand.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Destroy a random card in your hand.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Gain 2 Limp Wands.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Deal 8 damage to the Wizard who killed you.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Each foe may pass a card from their discard pile to yours.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Reveal, then pass the top card of your deck to target foe's hand.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Resolve the current Legend's Group Attack against yourself.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">You respawn from this death with 11 HP.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Draw a card.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Discard 3 cards.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Destroy a card in your discard pile.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="text">Discard 2 random cards.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-7"/>
+      <property name="text">Additional -4 VP.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-5"/>
+      <property name="text">Additional -2 VP.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">You take 3 extra damage from Wand Attacks.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">You pay 1 more to buy Wizards and Spells.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">You pay 1 more to buy Creatures and Treasures.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">You can't avoid Mayhem Attacks.</property>
+    </card>
+    <card name="Dead Wizard Token" id="">
+      <property name="vp" value="-3"/>
+      <property name="ongoing" value="true"/>
+      <property name="text">You pay 1 more to buy Legends and Wild Magics.</property>
+    </card>
+  </cards>
+</set>
